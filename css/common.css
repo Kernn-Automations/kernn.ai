@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap'); */
+@font-face {
+  font-family: 'Copperplate';
+  src: url('Copperplate Gothic Std 32 BC.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Copperplate', serif !important;
+}
+
+.hero-header{
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-position: center;
+}
+#logo{
+  width: 50%;
+  height: 50%;
+  transform: scale(0.7);
+  position: relative;
+  left: -30%;
+}
+.hero-header .header{
+    background: white;
+    text-align:center;
+    padding: 1rem;
+    opacity: .9;
+}
+.side{
+  position:absolute;
+  left: 46%;
+}
+#er{
+  font-size: 6rem;
+  letter-spacing: normal;
+}
+
+
+/**for small screens*/
+@media only screen and (max-width: 600px) {
+  .hero-header {
+    height: 60vh;
+  }
+}
