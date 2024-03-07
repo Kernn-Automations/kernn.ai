@@ -48,4 +48,10 @@ h1,h2,h3,h4,h5,h6{
   .hero-header {
     height: 60vh;
   }
+  #er{
+    font-size: 3rem;
+  }
+  .side{
+    left: 40%;
+  }
 }
